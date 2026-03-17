@@ -1,0 +1,8 @@
+{
+    "name": "Manim & Streamlit Environment",
+    "image": "mcr.microsoft.com/devcontainers/python:3.11",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:1": {}
+    },
+    "postCreateCommand": "sudo apt-get update && sudo apt-get install -y ffmpeg freeglut3-dev libpng-dev libffi-dev texlive texlive-latex-extra && pip install manim streamlit plotly pandas"
+}
